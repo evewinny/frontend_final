@@ -15,6 +15,13 @@ $('#tombol').click(function (e) {
       console.log(e);
       if (e.message=='success') {
         // document.cookie="asdsafaf";
+        var b=`$('<input/>').attr({
+                             type: "button",
+                             id: "btnr",
+                             onclick="window.location='https://51018005.p-web.click/nihongo/index.html'"})
+                        `;
+                        $("body").append(b);
+                        $("#btnr").click();
         document.location="https://51018005.p-web.click/nihongo/index.html";
       } else {
         alert("Email/Password anda salah");
