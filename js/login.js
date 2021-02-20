@@ -1,5 +1,6 @@
 $(document).ready(function () {
-  $('#tombol').click(function (e) {
+  function login() {
+  // $('#tombol').click(function (e) {
     e.preventDefault();
     var email = $('#email').val();
     var password = $('#password').val();
@@ -16,7 +17,7 @@ $(document).ready(function () {
         console.log(e);
         if (e.message=='success') {
           // document.cookie="asdsafaf";
-          window.location="https://51018005.p-web.click/nihongo/index.html";
+          window.location.href="https://51018005.p-web.click/nihongo/index.html";
         } else {
           alert("Email/Password anda salah");
         }
