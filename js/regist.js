@@ -21,7 +21,7 @@ $('#tombol').click(function (e) {
     dataType:'json',
       success: function (e) {
       console.log(e);
-      window.location.href="login.html";
+      window.location.href="nihongo/login.html";
     },
     error: function (e) {
       console.log(e);

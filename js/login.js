@@ -15,7 +15,7 @@ $('#tombol').click(function (e) {
       console.log(e);
       if (e.message=='success') {
         document.cookie="asdsafaf";
-        window.location.href="index.html"
+        window.location.href="nihongo/index.html"
       } else {
         alert("Email/Password anda salah");
       }
