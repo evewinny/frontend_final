@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Registrasi</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="icon" href="img.favicon.ico" type="image/x-icon">
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+</head>
+
+
+<body>
+  <nav class="red darken-5" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="index.html" class="brand-logo"></a>
+      <a href="index.html"><img src="img/final.png" alt="logo" style="height:30px;"> </a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="members.html">Daftar Anggota</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="regist.html">Register</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="members.html">Daftar Anggota</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="regist.html">Register</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+
+    <div class="container">
+      <div class="bg-light p-5 rounded">
+          <h3>Registrasi Member</h3>
+          <br>
+          <div class="row">
+            <div class="col md">
+              <div class="form-floating">
+                <input id="nama_d" name="nama_d" type="text" class="form-control" required>
+                <label for="nama_d">Nama Depan</label>
+              </div>
+              <br>
+              <div class="form-floating">
+                <input id="nama_b" name="nama_b" type="text" class="form-control" required>
+                <label for="nama_b">Nama Belakang</label>
+              </div>
+              <br>
+              <div class="form-floating">
+                <input id="umur" type="number" name="umur" class="form-control date_picker" required>
+                <label for="umur" class="form-label">Umur</label>
+              </div>
+              <br>
+              <div class="form-floating">
+                <input id="kota" type="text" name="kota" class="form-control" required>
+                <label for="kota" class="form-label">Asal Kota</label>
+              </div>
+              <br>
+              <div class="form-floating">
+                <input id="email"type="email" name="email" class="form-control" required>
+                <label for="email" class="form-label">Email</label>
+              </div>
+              <br>
+              <div class="form-floating">
+                <input id="password" type="password" name="password" class="form-control" required>
+                <label for="phone" class="form-label">Password</label>
+              </div>
+            </div>
+            <div class="col md s12">
+              <br>
+              <div class="mb-5 d-md-flex justify-content-md-end">
+                <button id="tombol" class="btn btn-outline-primary me-md-2" type="submit" name="action"></a>Registrasi<i class="bi bi-arrow-right-circle"></i>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5A.5.5 0 0 0 4 8z"/>
+                  </svg>
+                </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  <footer class="page-footer red darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Tentang Kami</h5>
+          <p class="grey-text text-lighten-4">NihonGO bertujuan dalam membantu anak-anak memperkenalkan bahasa dan budaya Jepang dengan cara yang mudah dan tidak membosankan.</p>
+
+
+        </div>
+
+        <div class="col l3 s12">
+          <h5 class="white-text">Hubungi Kami</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Whatsapp: 08986234925</a></li>
+            <li><a class="white-text" href="#!">Instagram: @nihon_go</a></li>
+            <li><a class="white-text" href="#!">Facebook: NihonGO</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="js/api.js"></script>
+  <script type="text/javascript" src="js/nihongo.js"></script>
+  <script type="text/javascript" src="js/regist.js">
+
+  </script>
+
+  </body>
+  </html>

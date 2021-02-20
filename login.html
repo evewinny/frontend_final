@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>NihonGO - home</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="img.favicon.ico" type="image/x-icon">
+  <style media="screen">
+  body {
+background: #eee !important;
+}
+
+.wrapper {
+margin-top: 80px;
+margin-bottom: 80px;
+}
+
+.form-signin {
+max-width: 380px;
+padding: 15px 35px 45px;
+margin: 0 auto;
+background-color: #fff;
+border: 1px solid rgba(0,0,0,0.1);
+
+.form-signin-heading,
+.checkbox {
+  margin-bottom: 30px;
+}
+
+.checkbox {
+  font-weight: normal;
+}
+
+.form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  @include box-sizing(border-box);
+
+  &:focus {
+    z-index: 2;
+  }
+}
+
+input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+input[type="password"] {
+  margin-bottom: 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+}
+  </style>
+</head>
+<body>
+  <nav class="red darken-5" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="index.html" class="brand-logo"></a>
+      <a href="index.html"><img src="img/final.png" alt="logo" style="height:30px;"> </a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="members.html">Daftar Anggota</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="regist.html">Register</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="members.html">Daftar Anggota</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="regist.html">Register</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div class="wrapper">
+    <form class="form-signin">
+      <h3 class="form-signin-heading">Silahkan Login</h3>
+      <input id="email" type="text" class="form-control" name="username" placeholder="Email Address" required="" autofocus="" />
+      <input id="password" type="password" class="form-control" name="password" placeholder="Password" required=""/>
+      <button id="tombol" class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+      <a href="regist.html">Belum punya akun?</a>
+    </form>
+  </div>
+
+
+  <footer class="page-footer red darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Tentang Kami</h5>
+          <p class="grey-text text-lighten-4">NihonGO bertujuan dalam membantu anak-anak memperkenalkan bahasa dan budaya Jepang dengan cara yang mudah dan tidak membosankan.</p>
+
+
+        </div>
+
+        <div class="col l3 s12">
+          <h5 class="white-text">Hubungi Kami</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Whatsapp: 08986234925</a></li>
+            <li><a class="white-text" href="#!">Instagram: @nihon_go</a></li>
+            <li><a class="white-text" href="#!">Facebook: NihonGO</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script type="text/javascript" src="js/api.js"></script>
+  <script type="text/javascript" src="js/nihongo.js"></script>
+  <script src="js/login.js" ></script>
+
+  </body>
+  </html>
