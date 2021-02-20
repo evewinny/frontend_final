@@ -4,7 +4,7 @@ $('#tombol').click(function (e) {
   var password = $('#password').val();
 
   $.ajax({
-    url:'http://51018005.p-web.click/learnapp/member/login',
+    url:'https://51018005.p-web.click/learnapp/member/login',
     method:'POST',
     data:{
       'email': email,

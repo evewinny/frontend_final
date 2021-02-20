@@ -8,7 +8,7 @@ $('#tombol').click(function (e) {
   var password = $('#password').val();
 
   $.ajax({
-    url:'http://51018005.p-web.click/learnapp/member/register',
+    url:'https://51018005.p-web.click/learnapp/member/register',
     method:'POST',
     data:{
       'nama_d': nama_d,
