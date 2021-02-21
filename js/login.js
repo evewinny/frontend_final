@@ -16,7 +16,7 @@ $(document).ready(function () {
         console.log(e);
         if (e.message=='success') {
           // document.cookie="asdsafaf";
-          window.location.href="https://51018005.p-web.click/nihongo/index.html";
+          window.location.href="https://51018005.p-web.click/nihongo/home.html";
         } else {
           alert("Email/Password anda salah");
         }

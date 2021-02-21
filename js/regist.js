@@ -21,7 +21,7 @@ $('#tombol').click(function (e) {
     dataType:'json',
       success: function (e) {
       console.log(e);
-      window.location.href="https://51018005.p-web.click/nihongo/login.html";
+      window.location.href="https://51018005.p-web.click/nihongo/index.html";
     },
     error: function (e) {
       console.log(e);
